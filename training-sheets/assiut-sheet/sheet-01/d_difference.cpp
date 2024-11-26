@@ -1,20 +1,14 @@
 #include <iostream>
 using namespace std;
  
-void SimpleCalculator(long long Num1, long long Num2){
-    
-    cout<< Num1 <<" + "<<Num2<<" = "<<Num1 + Num2<<endl;
-    cout<< Num1 <<" * "<<Num2<<" = "<<Num1 * Num2<<endl;
-    cout<< Num1 <<" - "<<Num2<<" = "<<Num1 - Num2<<endl;
- 
+long long Difference(long long a, long long b, long long c, long long d){
+    return (a * b) - (c * d);
 }
  
 int main(){
-    
-    long long Num1, Num2;
-    cin>>Num1>>Num2;
-    
-    SimpleCalculator(Num1,Num2);
-    
-    
+    long long a, b, c, d;
+    cin >> a >> b >> c >> d;
+ 
+    cout << "Difference = " << Difference(a, b, c, d) << endl;
 }
+
