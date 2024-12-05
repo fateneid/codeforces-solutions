@@ -8,7 +8,7 @@ int main()
     
     long double Result = (n*k)/a;
     
-    cout << (Result>2147483647? "long long" : (Result - (int)Result == 0? "int" : "double"));
-
+    cout << (Result - (long long)Result != 0? "double" : (Result>2147483647? "long long" : "int"));
+    
 	return 0;
 }
