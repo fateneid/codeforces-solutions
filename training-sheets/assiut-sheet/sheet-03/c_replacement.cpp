@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
 	int N;
-	int A[100000];
+	int A[1000];
 	cin >> N;
 
 	for(int i = 0; i < N; i++) {
