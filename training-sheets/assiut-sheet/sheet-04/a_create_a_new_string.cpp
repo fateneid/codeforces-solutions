@@ -10,6 +10,5 @@ int main()
     cout << s.length() << ' ' << t.length() << '\n';
     cout << s << ' ' << t;
 
-
-	return 0;
+    return 0;
 }
