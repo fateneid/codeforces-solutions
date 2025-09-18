@@ -19,7 +19,7 @@ int main()
 		}
 	}
 
-	cout << *min_element(f, f + 5);
+	cout << min({f[0], f[1], f[2], f[3], f[4]});
 
 	return 0;
 }
