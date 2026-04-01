@@ -13,7 +13,7 @@ int main()
 	for (int i = 1; i <= n; i++) {
 		cin >> a;
 		if (a <= b) t += a;
-		if (t > d) { cnt++; t = 0;}
+		if (t > d) {cnt++; t = 0;}
 	}
 
 	cout << cnt;
