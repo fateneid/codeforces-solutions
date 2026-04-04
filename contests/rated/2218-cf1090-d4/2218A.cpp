@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+#define ll long long
+
+int main()
+{
+	ios::sync_with_stdio(0);
+	cin.tie(0);
+
+	int t, x;
+	cin >> t;
+
+	while (t--) {
+		cin >> x;
+		cout << (x < 67 ? x + 1 : 67) << '\n';
+	}
+
+	return 0;
+}
